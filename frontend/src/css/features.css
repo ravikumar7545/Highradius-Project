@@ -1,0 +1,54 @@
+#features {
+  margin-top: 2%;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#features #tech_button {
+  width: 40%;
+  display: flex;
+}
+
+#features #search {
+  width: 13%;
+}
+
+#features #extra_button {
+  width: 30%;
+}
+
+#search {
+  height: 6vh;
+  border-radius: 5px;
+  letter-spacing: 1px;
+  border: 0;
+  outline: none;
+  padding-left: 5px;
+}
+
+.button {
+  text-transform: uppercase;
+  cursor: pointer;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  width: 33%;
+  height: 5vh;
+  margin: 0;
+  border: 0;
+  background: none;
+  color: white;
+  font-size: 80%;
+  border: 0.5px solid #7ed6df;
+}
+
+.button:hover {
+  background-color: aqua;
+}
+/*# sourceMappingURL=features.css.map */

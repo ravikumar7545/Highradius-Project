@@ -1,0 +1,4 @@
+This is the project done while internship in HIGHRADIUS.
+In this project invoice data has to fetch from the database using JDBC and sent to frontend using servlet.
+And in frontend React JS is used to create the UI where option like add, edit and delete invoice option has to be 
+implemented. Search option is also implemented to search through invoices.

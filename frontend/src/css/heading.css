@@ -1,0 +1,111 @@
+#heading {
+  width: 100vw;
+  overflow-x: scroll;
+  /* overflow-y: hidden; */
+  max-height: 63vh;
+}
+
+table {
+  border-collapse: collapse;
+  font-size: 1rem;
+}
+table thead{
+  position: sticky;
+  top: 0;
+  background-color: #34495e;
+}
+/* table tbody{
+  overflow-x: scroll;
+  overflow-y: scroll;
+} */
+
+table thead tr td {
+  padding: 10px;
+  padding-left: 20px;
+  padding-bottom: 0;
+  border-spacing: 15px;
+  font-family: "Fredoka", sans-serif;
+  color: white;
+}
+
+tbody tr td {
+  white-space: nowrap;
+  padding: 10px;
+  padding-left: 20px;
+  padding-bottom: 5px;
+  border-spacing: 15px;
+  font-family: "Hubballi", cursive;
+  border-bottom: 1px solid white;
+  color: white;
+  /* background-color: #4a5d70; */
+}
+
+#row-details {
+  width: 100%;
+  height: 5vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-right: 2%;
+  font-family: "Fredoka", sans-serif;
+  height: 7vh;
+  -webkit-box-shadow: 0px 0px 0.7px rgba(0, 0, 0, 0.047), 0px 0px 1.7px rgba(0, 0, 0, 0.067), 0px 0px 3.4px rgba(0, 0, 0, 0.083), 0px 0px 6.9px rgba(0, 0, 0, 0.103), 0px 0px 19px rgba(0, 0, 0, 0.15);
+          box-shadow: 0px 0px 0.7px rgba(0, 0, 0, 0.047), 0px 0px 1.7px rgba(0, 0, 0, 0.067), 0px 0px 3.4px rgba(0, 0, 0, 0.083), 0px 0px 6.9px rgba(0, 0, 0, 0.103), 0px 0px 19px rgba(0, 0, 0, 0.15);
+}
+
+#row-details button {
+  width: 1%;
+}
+
+#rows-number {
+  margin-right: 1.5%;
+  background: none;
+  outline: none;
+  border: 0;
+  color: white;
+  cursor: pointer;
+}
+
+#total-rows {
+  margin-right: 1.5%;
+  color: white;
+}
+
+.navBtn {
+  cursor: pointer;
+  margin-right: 1%;
+  width: 50px;
+  background: none;
+  outline: none;
+  color: white;
+  border: 0;
+  font-size: 1.1rem;
+}
+
+#footer {
+  position: fixed;
+  float: center;
+  width: 100%;
+  bottom: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: 5vh;
+  color: white;
+  font-family: "Fredoka", sans-serif;
+}
+.black{
+  color: black;
+}
